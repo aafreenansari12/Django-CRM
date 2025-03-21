@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-mpg3uyt2l7_ymojie2z#3k$6ks9(&(h_f)2b5x#2w)-3b37aoo
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'dcrm.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'aafreen',
         'USER': 'root',
         'PASSWORD': 'ansariaafreen98.',
